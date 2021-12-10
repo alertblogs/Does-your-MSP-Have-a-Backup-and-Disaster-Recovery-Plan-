@@ -1,40 +1,62 @@
-AlertOps Expert Guidance
+Does your MSP Have a Backup and Disaster Recovery Plan?
 ========
 
  
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+Data loss can cause big problems for managed service providers (MSPs) and their customers. With an MSP backup and disaster recovery (BDR) solution in place, MSPs can guard against data loss following a cyber attack, hardware failure, or any other IT incident.
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
-
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
-
-Automate Processes
+What Is an MSP Backup and Disaster Recovery Solution?
 ====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+An MSP BDR solution helps a service provider and its customers maintain business continuity after an IT incident. The solution ensures data is backed up in a secure location and remains easily accessible to authorized users. As such, a BDR solution helps MSPs minimize IT incident data loss. It also enables MSPs to quickly recover data following an incident, so service providers and their customers can avoid long-lasting business interruptions.
 
-Clarity
+Along with a BDR solution, MSPs need a plan designed to restore lost data after IT incidents. This plan encompasses various tools and methodologies that ensure lost MSP or customer data is backed up, recoverable, and secure. In addition, the plan should ensure that an MSP can remain confident in the services it provides — to the point where a service provider can rest assured that its own data and its customers’ data remain safe and accessible 24/7.
+
+Bolster Your MSP Backup and Disaster Recovery Plan
 ====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+An MSP BDR plan can help a service provider improve its existing services and grow its operations. To implement a successful MSP BDR plan or improve your existing strategy, you can:
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+1. Leverage Multiple Backup Options
+Integrate onsite, offsite, and cloud backups into your BDR plan. These backups ensure you can leverage multiple sources to seamlessly recover lost data.
 
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+Onsite backups are ideal for simple recovery tasks. They can be stored on hard drives or other in-house storage devices and provide immediate access to data. Plus, onsite backups are usually inexpensive in comparison to other types of backup options, and you typically don’t need an internet connection to access them.
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+Offsite backups are great to streamline data recovery if onsite infrastructure is wiped out. They include cloud and third-party options that provide data security and integrity. Offsite backups often ensure data is automatically backed up at regular intervals, too.
 
-1 Red Canary 2021 Threat Detection Report
+Hybrid backups are also available. A hybrid backup blends onsite and offsite options and automates the backup process. It can back up each production server as a virtual machine (VM) image, recover lost files and systems, and provide advanced data protection.
+
+It helps to learn as much as possible about different backup options and how they can help you manage and secure your data. With this approach, you can determine if onsite, offsite, or a combination of the two is the best option to protect you and your customers against data loss.
+
+2. Use Remote Monitoring and Management (RMM) Tools
+RMM tools let you monitor and access data backups at any time. You can use these tools to create and run backup tasks and track their progress. Also, RMM tools empower you to identify and address any backup issues in their early stages.
+
+You can use RMM tools in combination with AlertOps as well. By integrating an RMM tool’s API with our incident alerting platform, you can escalate backup issues, set up triggers to alert end-users about incidents, and monitor post-mortem data. As a result, you can leverage an RMM tool and AlertOps to simultaneously guard against backup issues and improve your incident management and response capabilities.
+
+3. Use the 3-2-1 Approach
+A 3-2-1 approach to BDR involves the following steps:
+
+    Create 3 copies of your data. Since an IT incident can compromise your primary data source and your backup, establish at least 3 copies of your data.
+    Leverage 2 types of storage media. Use 2 or more types of storage media and keep them in different locations.
+    Choose at least 1 offsite backup. Keep at least one of your backups offsite and ensure your system administrators can easily access it.
+
+The 3-2-1 approach minimizes risk, due to the fact that you can maintain multiple data backups in multiple locations. By using this approach, you are well-equipped to speed up data recovery for you and your customers.
+
+4. Prioritize Disaster Recovery
+There is no telling when an earthquake, hurricane, or any other natural disaster will occur that temporarily derails your IT infrastructure. If you back up your data with disaster recovery top of mind, you can prevent long-lasting interruptions for you and your customers following disasters.
+
+A programmatic approach to disaster recovery is key. Initially, consider what data you need to back up and how you can effectively do so. You can then identify the tools, technicians, and response processes necessary to develop and launch a successful BDR plan.
+
+There are many factors to consider relating to your BDR plan as well. These include:
+
+    Recovery Technologies: Ensure you can back up and recover data for all systems across your organization and customer base.
+    Third-Party Support: Leverage third-party tools as part of your BDR efforts and maintain a list of all third-party vendors you use and their contact information.
+    Recovery Time Objective (RTO): Establish a time frame for how quickly you want to be able to restore lost data following a disaster; this time frame can serve as a baseline for your RTO.
+    Recovery Protocols: Establish protocols that define the roles and responsibilities of stakeholders who are involved in disaster recovery; with AlertOps, you can establish custom escalation rules and templates to automatically send alerts and escalate them to appropriate stakeholders.
+    Recovery Testing: Conduct periodic tests and mock disaster scenarios to confirm recovery systems and practice recovery processes.
+
+AlertOps can help you integrate our incident alerting platform into your MSP BDR plan. With our support, you can guard against data loss for you and your customers and speed up incident response and recovery.
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/msp-backup/
 
 Read more:
 ====
